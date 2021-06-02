@@ -21,7 +21,6 @@ int LED5 = 2;
 int data[2];
 
 boolean t1,t2,t3,t4,n= false;
-int g1,g2,g3,g4;
 
 void setup()
 {
