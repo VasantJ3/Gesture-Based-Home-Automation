@@ -57,27 +57,15 @@ void loop() {
     if (data[0]<-90 && data[1]<-200)
       {
        t1=!t1;
-       digitalWrite(LED3, LOW);
-       digitalWrite(LED4, LOW);
-       digitalWrite(LED5, LOW);
-      }
+       }
     else if(data[0]<-100 && data[1]>700){
         t2=!t2;
-        digitalWrite(LED2, LOW);
-        digitalWrite(LED4, LOW);
-        digitalWrite(LED5, LOW);
       }
    else if(data[0]>0 && data[1]<-800  ){
         t3=!t3;
-        digitalWrite(LED2, LOW);
-        digitalWrite(LED3, LOW);
-        digitalWrite(LED5, LOW);
      }
    else if(data[0]>800 && data[1]<0){
         t4=!t4;
-       digitalWrite(LED2, LOW);
-       digitalWrite(LED3, LOW);
-       digitalWrite(LED4, LOW); 
      }
    else{
       digitalWrite(LED2, LOW);
