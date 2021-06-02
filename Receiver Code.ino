@@ -64,16 +64,10 @@ void loop() {
    else if(data[0]>0 && data[1]<-800  ){
         t3=!t3;
      }
-   else if(data[0]>800 && data[1]<0){
+   else(data[0]>800 && data[1]<0){
         t4=!t4;
      }
-   else{
-      digitalWrite(LED2, LOW);
-      digitalWrite(LED3, LOW);
-      digitalWrite(LED4, LOW);
-      digitalWrite(LED5, LOW);
-      delay(0);
-    }    
+ 
 
 
 
