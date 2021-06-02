@@ -30,7 +30,7 @@ SPI.begin();
 //myServoo.attach(4);
 radio.begin();                    //Start the nRF24 communicate            
 network.begin(90,node01);   
-radio.setDataRate(RF24_2MBPS);
+radio.setDataRate(RF24_1MBPS);
 pinMode(LED1, OUTPUT);
 pinMode(LED2, OUTPUT);
 pinMode(LED3, OUTPUT);
