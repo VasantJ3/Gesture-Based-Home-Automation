@@ -34,7 +34,7 @@ void setup() {
   mpu.initialize();              //Initialize the MPU object
   radio.begin();                 //Start the nRF24 communicate     
   network.begin(90, base00);  //(channel, node address)
-  radio.setDataRate(RF24_2MBPS);
+  radio.setDataRate(RF24_1MBPS);
   pinMode(ledPin, OUTPUT);  
   pinMode(ctsPin, INPUT);
 }
